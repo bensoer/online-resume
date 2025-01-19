@@ -1,0 +1,10 @@
+Dockerfile
+*.md
+LICENSE
+archive
+.github
+_site
+.jekyll-cache
+.dockerignore
+.git
+.gitignore
