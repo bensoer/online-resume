@@ -1,6 +1,6 @@
 # Welcome to Jekyll!
-title: Online Resume
-url:
+title: "Ben Soer's Resume"
+url: https://resume.bensoer.com
 baseurl:
 
 # Sass setting
@@ -25,7 +25,7 @@ section_line: dashed        # section title line, 'solid', 'dashed' or 'none'
 section_background: false   # section title backound, 'true' or 'false'
 skill_level_icon: lightbulb # skill rate icon, 'heart', 'star', 'circle' or 'lightbulb'
 link_icon: true             # show link icon, 'true' or 'false'
-site_footer: true           # show site footer, 'true' or 'false'
+site_footer: false           # show site footer, 'true' or 'false'
 
 # Analytics
 analytics:
