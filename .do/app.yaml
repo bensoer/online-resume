@@ -1,0 +1,13 @@
+name: resume-app
+region: nyc
+static_sites:
+  - name: resume-jekyll
+    git:
+      repo_clone_url: https://github.com/bensoer/online-resume.git
+      branch: master
+    build_command: bundle exec jekyll build -d ./public
+    environment_slug: "jekyll"
+domains:
+  - domain: resume.bensoer.com
+    type: PRIMARY
+    wildcard: false
