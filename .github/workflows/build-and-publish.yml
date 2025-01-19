@@ -44,12 +44,10 @@ jobs:
               type=ref,event=tag
               type=sha
             labels: |
-              org.opencontainers.image.title=com.projectterris.nocap.api
-              org.opencontainers.image.description=NoCap API
-              org.opencontainers.image.vendor=project-terris
+              org.opencontainers.image.title=com.bensoer.resume
+              org.opencontainers.image.description="Ben Soer's Resume"
+              org.opencontainers.image.vendor=bensoer
           # https://github.com/docker/build-push-action
-        - name: Prep Repo For Build
-          run: mkdir .jekyll-cache _site
         - name: Build and Push Docker Image
           uses: docker/build-push-action@v4.0.0
           id: push
