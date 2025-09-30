@@ -137,21 +137,22 @@ skill:
       item:
         - Terraform
         - TerraGrunt
+        - Github Actions
+        - CircleCI
         - ArgoCD
         - Jenkins
         - AWS CDK
         - CloudFormation
         - Packer
         - Saltstack
-        - Github Actions
     - name: Monitoring and Observability
       item:
+        - Sumologic
+        - stern
         - DataDog
+        - PagerDuty
         - CloudWatch
         - Splunk
-        - Prometheus
-        - Grafana
-        - PagerDuty
     - name: Cloud Platforms
       item:
         - Amazon Web Services
@@ -159,11 +160,10 @@ skill:
         - Azure
     - name: Containerization and Orchestration
       item:
-        - Docker
-        - Kubernetes (EKS, DOKS, Minikube)
-        - ECS
+        - Kubernetes (AKS, EKS, DOKS, Bare-Metal, Minikube)
         - Helm
         - kubectl
+        - Docker
     - name: Programming and Scripting Languages
       item:
         - Python
@@ -183,20 +183,33 @@ skill:
         - ifconfig
     - name: Security and Compliance
       item:
-        - IAM
+        - AWS IAM
+        - Azure AD
         - K8 RBAC
         - Trivy
-        - Hashicorp Vault
 
 experience:
   show: true
   order: 3
   title: Experience
   items:
+    - company: Velora
+      link: 'https://www.joinvelora.com/'
+      tags: Fill-time, Remote
+      date: March 2025 - Present
+      role: DevOps Engineer 2
+      location: Vancouver
+      description: |
+        - Improved resiliancy, security, uptime, efficiency and documentation practices of Keela's production kubernetes clusters resulting in upgrades of all 3 production kubernetes clusters with no downtime, minimal interruption, and a 15% cost reduction
+        - Consolidated security services by migrating Keela's VPN provider from Perimeter81 to Cloudflare WARP, streamlining operations across Velora and reducing annual licence costs by 9.5k
+        - Investigated and initiated onboarding of Keela's Azure infrastructure into a Cloud Solution Provider (CSP) which is expected to improve infrastructure cost by a minimum of 4%
+        - Developed a "Pipeline Integration Kit" to simplify and standardise CI/CD practices for services using Github Actions and CircleCI and deploying to Azure and AWS
+        - Participated and led documentation practices around deployments for DevOps, improving overall communication, cross-team visibility, developer confidence, and deployment cycles
+        - Established cross team communication practices to keep Development and Management in sync with DevOps, along with resources and systems to provide feedback and communicate changes between teams
     - company: NuData Security - MasterCard
       link: 'https://www.linkedin.com/company/nudatasecurity/posts/?feedView=all'
       tags: Full-time, Hybrid
-      date: May 2024 - Present
+      date: May 2024 - February 2025
       role: Senior Software Engineer - Cloud Platform
       location: Vancouver
       description: |
@@ -389,15 +402,21 @@ patent:
     + Foo Bar. 2022. Example patent name two. US 654321, filed Oct 3, 2022, and issued Nov 15, 2022.
 
 organization:
-  show: false
+  show: true
   order: 10
-  title: Organizations
+  title: Volunteering
   description: |
-    The organization section in a resume, specifically for social contexts, is a section where you can showcase any relevant involvement or leadership positions in social, cultural, or community organizations. This section can highlight your commitment to social causes and your ability to work collaboratively with others towards a common goal.
+    **Tech Support / Software Engineer** for the *Canadian Clubfoot Support Society* : November 2024 - Present
+    - Lead planning and development of new features, fixing bugs, resolving technical support issues for CCSS apps
+    - Upgrade online services and platforms
+    - Research, seek out and promote coworkers and friends with technical backgrounds to volunteer and contribute to CCSS's apps
 
-    In this section, you can list the name of the organization, your role and responsibilities, the duration of your involvement, and any significant achievements or accomplishments. You can also mention any skills or qualities you gained from your involvement, such as leadership, teamwork, communication, or problem-solving skills.
+    **IT Support Technician** for *Dixon Transition Society* : December 2021 - April 2022
+    - Provide technical support for computer upgrades
+    - Provide expertise and insight into future projects to help smooth out admin operations
 
-    This section can be especially valuable for candidates seeking positions in the non-profit sector, social work, or community engagement roles, where experience in social or cultural organizations can demonstrate a genuine passion for social causes and a willingness to work collaboratively towards social change. However, it is important to only include organizations that are relevant to the job you are applying for, and avoid listing organizations that may be controversial or potentially offensive.
+    **Gate Security** for the *Vancouver Folk Music Festival* : June 2011 - June 2015
+    - Enforce festival security and help festival patrons on, off and around the festival grounds
 
 language:
   show: true
